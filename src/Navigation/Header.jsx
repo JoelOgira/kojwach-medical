@@ -15,8 +15,8 @@ const Header = () => {
     }
 
     return (
-        <header className="top-0 px-5 py-5 bg-[#fff0f0]">
-            <div className="flex items-center justify-between md:container md:w-3/4 md:mx-auto">
+        <header className="w-full top-0 px-5 py-5 bg-[#fff0f0] md:px-0">
+            <div className="flex items-center space-x-6 justify-between md:container md:w-5/6 md:mx-auto lg:w-3/4">
                 <div className="pt-2">
                     <img src={logo} alt="Site Icon" width="100px" />
                 </div>
