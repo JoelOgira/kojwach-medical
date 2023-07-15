@@ -23,7 +23,7 @@ const About = () => {
                     <div className="flex flex-col space-y-5 md:w-1/2">
                         <h2 className="text-secondary font-bold text-3xl">About Us</h2>
                         <p>
-                            Kojwach Medical Center Limited is a leading Public National Referral Hospital (Level 6) with a 650-bed hospital equipped with state-of-the-art medical equipment. We employ cutting edge research, innovation, training, and partnerships to keep abreast with advancements in healthcare management. This enables us to address the current health challenges and ensures that we are responsive to emerging and future health challenges.
+                            Kojwach Medical Center Limited is a leading Public Hospital (Level 3) with a 30-bed hospital equipped with state-of-the-art medical equipment. We employ cutting edge research, innovation, training, and partnerships to keep abreast with advancements in healthcare management. This enables us to address the current health challenges and ensures that we are responsive to emerging and future health challenges.
                         </p>
                         <p>
                             We offer quality patient-centered care where the patient is an active participant in their care. This brings about improved patient health outcomes and satisfaction and improved job satisfaction among our healthcare providers. Specialized care is one of our flagship services where patients are attended to by highly specialized consultants.
@@ -62,7 +62,7 @@ const About = () => {
 
             </div>
 
-            <div className="bg-secondary text-white ">
+            <div className="bg-tertiary text-white ">
                 <div className="flex flex-col space-y-20 px-5 py-16 md:px-0 md:container md:mx-auto md:w-5/6 lg:w-3/4">
                     <div className="flex flex-col justify-center items-center text-center space-y-5 text-white">
                         <h2 className="font-bold text-3xl md:text-4xl">Why Chose Us</h2>
