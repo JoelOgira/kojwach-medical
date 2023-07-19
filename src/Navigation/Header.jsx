@@ -16,20 +16,20 @@ const Header = () => {
     }
 
     return (
-        <header className="w-full top-0 shadow-xl px-5 py-10 md:px-0">
-            <div className="flex items-center space-x-6 justify-between md:container md:w-5/6 md:mx-auto lg:w-3/4">
-                <Link to="/" className="pt-2">
-                    <img src={logo} alt="Site Icon" width="100px" />
+        <header className="w-full top-0 border-b border-gray-400 px-5 py-7 md:px-0 bg-white">
+            <div className="flex items-center space-x-10 justify-between md:container md:w-5/6 md:mx-auto lg:w-3/4">
+                <Link to="/">
+                    <img src={logo} alt="Site Icon" className="w-[150px] xl:w-[200px]" />
                 </Link>
-                <div className="hidden md:flex space-x-10 font-bold">
+                <div className="hidden md:flex space-x-6 font-bold">
                     <Link to="/" className="hover:text-[#ec4949]">Home</Link>
-                    <Link to="/departments" className="hover:text-[#ec4949]">Departments</Link>
+                    {/* <Link to="/departments" className="hover:text-[#ec4949]">Departments</Link> */}
                     <Link to="/services" className="hover:text-[#ec4949]">Services</Link>
                     <Link to="/about" className="hover:text-[#ec4949]">About Us</Link>
                     <Link to="/contact" className="hover:text-[#ec4949]">Contact</Link>
                 </div>
 
-                <button className="hidden p-3 px-6 text-[#ec4949] border-2 border-[#ec4949] rounded-md baseline hover:bg-[#ec4949] hover:text-white md:flex md:space-x-2">
+                <button className="hidden p-3 px-6 text-[#ec4949] border-2 border-[#ec4949] rounded-full baseline hover:bg-[#ec4949] hover:text-white md:flex md:space-x-2">
                     <FaPhoneAlt className="mt-1" /> <span className="mx-2">Call Us: +2547987654</span>
                 </button>
 
@@ -49,7 +49,7 @@ const Header = () => {
             <div className="md:hidden">
                 <div id="menu" className={`flex-col ${isHidden ? 'hidden' : 'flex'} items-center self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md`}>
                     <Link to="/">Home</Link>
-                    <Link to="/departments">Departments</Link>
+                    {/* <Link to="/departments">Departments</Link> */}
                     <Link to="/services">Services</Link>
                     <Link to="/about">About Us</Link>
                     <Link to="/contact">Contact</Link>
