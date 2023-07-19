@@ -15,7 +15,10 @@
   -webkit-text-size-adjust: 100%;
 }
 
-html, body, #root, .App {
+html,
+body,
+#root,
+.App {
   min-height: 100dvh;
 }
 
@@ -65,3 +68,47 @@ html, body, #root, .App {
   transform: rotate(-45deg) translateY(6px) translate(-6px);
 }
 
+/* ************* */
+.embla {
+  overflow: hidden;
+}
+
+.embla__container {
+  display: flex;
+}
+
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
+
+.slider-1 {
+  background: url("./assets/slider_1.jpg");
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.slider-2 {
+  background: url("./assets/slider_2.jpg");
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.slider-3 {
+  background: url("./assets/slider_3.jpg");
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.showcase {
+  background: url("./assets/showcase-bg.png") no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* ************ */
+
+.contact-bg {
+  background: url("./assets/slider_3.jpg") no-repeat center center;
+  background-size: cover;
+  position: relative;
+}
