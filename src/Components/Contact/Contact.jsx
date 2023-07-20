@@ -51,7 +51,7 @@ const Contact = () => {
                             </div>
 
                             <div className="w-full flex flex-row space-x-5 border-b py-8 text-left">
-                                <TfiEmail className="text-4xl text-tertiary" />
+                                <TfiEmail className="text-3xl text-tertiary" />
                                 <div>
                                     <h4 className="font-semibold pb-3 text-2xl text-tertiary">Email Address</h4>
                                     <p className="max-w-sm text-sm">info@kojwachmedical.com</p>
