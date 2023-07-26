@@ -2,19 +2,21 @@ import { Link } from "react-router-dom";
 import slider_3 from '../../assets/slider_3.jpg'
 import { TbMicroscope } from "react-icons/tb";
 import { GiGears } from "react-icons/gi";
-import { FaClock } from "react-icons/fa";
+import { GiClockwork } from "react-icons/gi";
 import { FaUsersGear } from "react-icons/fa6";
 
 const About = () => {
     return (
         <div className="w-full">
-            <div className="bg-primary mb-5">
-                <div className="px-5 py-8 md:px-0 md:container md:mx-auto md:w-5/6 lg:w-3/4">
-                    <div className="flex space-x-5 mb-3">
-                        <div className="bg-[#b12828] h-10 w-2"></div>
-                        <h1 className="text-[#b12828] font-bold text-4xl">Who We Are</h1>
+            <div className="about-bg">
+                <div className="bg-white bg-opacity-70">
+                    <div className="px-5 py-8 md:px-0 md:container md:mx-auto md:w-5/6 lg:w-3/4">
+                        <div className="flex space-x-5 mb-3">
+                            <div className="bg-[#b12828] h-10 w-2"></div>
+                            <h1 className="text-[#b12828] font-bold text-4xl">About Us</h1>
+                        </div>
+                        <p className="text-secondary"><Link to="/" className="underline">Home</Link> - About Us</p>
                     </div>
-                    <p className="text-secondary"><Link to="/" className="underline">Home</Link> - Who We Are</p>
                 </div>
             </div>
 
@@ -87,7 +89,7 @@ const About = () => {
                             </div>
                         </div>
                         <div className="flex flex-col justify-center items-center space-y-8 border-r">
-                            <FaClock className="text-6xl" />
+                            <GiClockwork className="text-6xl" />
                             <div className="font-semibold text-xl text-center">
                                 <p>24/7</p>
                                 <p>Operations</p>
