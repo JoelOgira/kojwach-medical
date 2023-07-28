@@ -47,7 +47,7 @@ const Header = () => {
             </div>
 
             <div className="md:hidden">
-                <div id="menu" className={`flex-col ${isHidden ? 'hidden' : 'flex'} items-center self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md`}>
+                <div id="menu" className={`flex-col ${isHidden ? 'hidden' : 'flex'} items-center self-end py-8 mt-10 space-y-6 font-bold text-white rounded-lg bg-tertiary sm:w-auto sm:self-center left-6 right-6 drop-shadow-md`}>
                     <Link to="/">Home</Link>
                     {/* <Link to="/departments">Departments</Link> */}
                     <Link to="/services">Services</Link>
