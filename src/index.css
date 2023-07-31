@@ -107,8 +107,20 @@ body,
 
 /* ************ */
 
+.about-bg {
+  background: url("./assets/Hospital.jpg") no-repeat center center;
+  background-size: cover;
+  position: relative;
+}
+
 .contact-bg {
   background: url("./assets/slider_3.jpg") no-repeat center center;
+  background-size: cover;
+  position: relative;
+}
+
+.services-bg {
+  background: url("./assets/theater.jpg") no-repeat center center;
   background-size: cover;
   position: relative;
 }
