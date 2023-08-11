@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const ServiceSnippet = () => {
     return (
-        <div className="w-full showcase my-5 bg-gray-300">
+        <section className="w-full showcase my-5 bg-gray-300">
             <div className="px-5 space-y-12 py-10 md:px-0 md:container md:mx-auto md:w-5/6 lg:w-3/4">
 
                 <div className='flex justify-center items-center'>
@@ -43,7 +43,7 @@ const ServiceSnippet = () => {
 
 
             </div>
-        </div>
+        </section>
     )
 }
 
