@@ -13,7 +13,7 @@ import UAP from "../../assets/UAP_1_887f320ecc.svg";
 
 const Insurance = () => {
     return (
-        <div className="w-full px-5 py-6 md:px-0 md:container md:mx-auto md:w-5/6 lg:w-3/4">
+        <section className="w-full px-5 py-6 md:px-0 md:container md:mx-auto md:w-5/6 lg:w-3/4">
             <div className="flex flex-col space-y-10 md:flex-row md:space-x-14 md:space-y-0">
                 <div className="flex flex-col space-y-5 justify-center items-center text-center w-full md:justify-start md:items-start md:text-left md:w-1/3">
                     <h2 className="text-[#ec4949]">INSURANCE</h2>
@@ -61,7 +61,7 @@ const Insurance = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 
