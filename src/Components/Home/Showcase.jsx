@@ -4,7 +4,7 @@ import { BsShieldCheck } from "react-icons/bs";
 
 const Showcase = () => {
     return (
-        <div className="w-full showcase">
+        <section className="w-full showcase">
             <div className="px-5 py-10 mb-10 md:px-0 md:container md:mx-auto md:w-5/6 lg:w-3/4">
                 <div className="flex flex-col space-y-5 py-20 justify-center items-center text-center w-full">
                     <h2 className="font-bold text-3xl max-w-md md:text-4xl md:max-w-xl">Welcome to our facility that provides quality care for all</h2>
@@ -45,7 +45,7 @@ const Showcase = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 
