@@ -16,7 +16,7 @@ const Header = () => {
     }
 
     return (
-        <header className="w-full top-0 border-b border-gray-400 px-5 py-7 md:px-0 bg-white">
+        <header className="w-full top-0 border-b border-gray-400 px-5 py-3 md:px-0 bg-white">
             <div className="flex items-center space-x-10 justify-between md:container md:w-5/6 md:mx-auto lg:w-3/4">
                 <Link to="/">
                     <img src={logo} alt="Site Icon" className="w-[150px] xl:w-[200px]" />
