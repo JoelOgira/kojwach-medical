@@ -68,18 +68,18 @@ const Contact = () => {
                                 </div>
                             </div>
 
-                            <div className="w-full flex flex-row text-tertiary text-xl items-center space-x-10 py-8">
+                            <div className="w-full flex flex-row text-tertiary text-2xl items-center space-x-10 py-8">
                                 <Link>
-                                    <BsFacebook />
+                                    <BsFacebook className="hover:text-secondary"/>
                                 </Link>
                                 <Link>
-                                    <AiFillTwitterCircle />
+                                    <AiFillTwitterCircle className="hover:text-secondary"/>
                                 </Link>
                                 <Link>
-                                    <BsYoutube />
+                                    <BsYoutube className="hover:text-secondary"/>
                                 </Link>
                                 <Link>
-                                    <AiFillInstagram />
+                                    <AiFillInstagram className="hover:text-secondary"/>
                                 </Link>
                             </div>
 
