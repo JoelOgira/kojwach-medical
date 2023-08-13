@@ -1,19 +1,17 @@
 
-
 const Community = () => {
     return (
         <section className="community-bg w-full">
             <div className="px-5 py-4 md:px-0 md:container md:mx-auto md:py-18 md:pt-24 md:w-5/6 lg:w-3/4">
                 <div className="flex flex-col space-y-10 md:flex-row lg:space-y-0 lg:space-x-10">
-
                     <div className="flex flex-col space-y-5 md:w-2/3">
-                        <h2 className="text-secondary font-bold text-xl">To the Community</h2>
+                        <h3 className="text-secondary font-bold text-xl">To the Community</h3>
                         <h2 className="font-bold text-2xl md:text-5xl md:max-w-4xl">Focusing On General Community Development & Health</h2>
                         <p className=" font-semibold text-lg md:max-w-3xl">
-                            Matata Nursing Hospital provides access to comprehensive and integrated quality health care to improve individual and community health in Homa Bay and other Nyanza Counties.
+                            Kojwach Medical Center provides access to comprehensive and integrated quality health care to improve individual and community health in Homa Bay and other Nyanza Counties.
                         </p>
                         <p className="md:max-w-3xl">
-                            Additionally, Matata Nursing Hospital has programs focused on community development through the MNH’s Community Social Responsibility such as renovation of schools, safe clean supply development and sustainable conservation agriculture. These activities are provided to mainly improve the wellness and wellbeing of the communities it serves.
+                            Additionally, Kojwach Medical Center has programs focused on community development through the KMC’s Community Social Responsibility such as renovation of schools, safe clean supply development and sustainable conservation agriculture. These activities are provided to mainly improve the wellness and wellbeing of the communities it serves.
                         </p>
                     </div>
 
@@ -42,7 +40,6 @@ const Community = () => {
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>
