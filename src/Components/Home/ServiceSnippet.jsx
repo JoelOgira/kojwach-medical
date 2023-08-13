@@ -14,22 +14,22 @@ const ServiceSnippet = () => {
                 </div>
 
                 <div className="grid grid-cols-2 justify-center items-center md:grid-cols-4 text-secondary">
-                    <div className="flex flex-col h-full justify-center items-center space-y-4 border border-r-0 border-b-0 py-5 border-secondary hover:bg-secondary hover:text-white md:border-b">
+                    <div className="flex flex-col px-2 h-full justify-center items-center space-y-4 border border-r-0 border-b-0 py-5 border-secondary hover:bg-secondary hover:text-white md:border-b">
                         <FaTooth className="text-6xl" />
                         <p>Dentistry</p>
                     </div>
 
-                    <div className="flex flex-col h-full justify-center items-center space-y-4 border border-b-0 py-5 border-secondary hover:bg-secondary hover:text-white md:border-r-0 md:border-b">
+                    <div className="flex flex-col px-2 h-full justify-center items-center space-y-4 border border-b-0 py-5 border-secondary hover:bg-secondary hover:text-white md:border-r-0 md:border-b">
                         <LiaCapsulesSolid className="text-6xl" />
                         <p>Pharmacy</p>
                     </div>
                     
-                    <div className="flex flex-col h-full justify-center items-center space-y-4 border border-r-0 py-5 text-center border-secondary hover:bg-secondary hover:text-white">
+                    <div className="flex flex-col px-2 h-full justify-center items-center space-y-4 border border-r-0 py-5 text-center border-secondary hover:bg-secondary hover:text-white">
                         <PiClockCounterClockwise className="text-6xl" />
                         <p>Around the clock service</p>
                     </div>
 
-                    <div className="flex flex-col h-full justify-center items-center space-y-4 border py-5 border-secondary hover:bg-secondary hover:text-white">
+                    <div className="flex flex-col px-2 h-full justify-center items-center space-y-4 border py-5 border-secondary hover:bg-secondary hover:text-white">
                         <PiBedThin className="text-6xl" />
                         <p>Antenatal care</p>
                     </div>
