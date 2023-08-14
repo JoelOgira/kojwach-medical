@@ -101,8 +101,9 @@ body,
 }
 
 .showcase {
-  background: url("./assets/showcase-bg.png") no-repeat center center fixed;
-  background-size: cover;
+  background: url("./assets/showcase-bg.png");
+  background-size: 100% 100%;
+  position: relative;
 }
 
 /* ************ */
@@ -123,4 +124,38 @@ body,
   background: url("./assets/theater.jpg") no-repeat center center;
   background-size: cover;
   position: relative;
+}
+
+.community-bg {
+  background: url("../public/images/community-bg.png");
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.staff-stat {
+  background: url("../public/images/staff-stat.png");
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.services-stat {
+  background: url("../public/images/services-stat.png");
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.bed-stat {
+  background: url("../public/images/bed-stat.png");
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.faq-bg {
+  background: url("../public/images/faq-bg.png");
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.faq-quiz {
+  background: url("../public/images/faq-quiz-bg.png") no-repeat center center;
 }
