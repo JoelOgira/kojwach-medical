@@ -10,7 +10,7 @@ const ServiceSnippet = () => {
             <div className="px-5 space-y-12 py-10 md:px-0 md:container md:mx-auto md:w-5/6 lg:w-3/4">
 
                 <div className='flex justify-center items-center'>
-                    <h2 className="font-bold text-3xl max-w-md md:text-4xl md:max-w-xl capitalize text-center">Explore our main services</h2>
+                    <h2 className="font-bold font-poppins text-3xl max-w-md md:text-4xl md:max-w-xl capitalize text-center">Explore our main services</h2>
                 </div>
 
                 <div className="grid grid-cols-2 justify-center items-center md:grid-cols-4 text-secondary">
@@ -36,7 +36,7 @@ const ServiceSnippet = () => {
                 </div>
 
                 <div className='flex justify-center items-center'>
-                    <Link to="/services" className='text-sm font-light bg-tertiary hover:bg-secondary text-white py-3 px-6 rounded-full'>
+                    <Link to="/services" className='text-sm font-light font-poppins   bg-tertiary hover:bg-secondary text-white py-3 px-6 rounded-full'>
                         More Services
                     </Link>
                 </div>
