@@ -17,9 +17,9 @@ const Insurance = () => {
             <div className="flex flex-col space-y-10 md:flex-row md:space-x-14 md:space-y-0">
                 <div className="flex flex-col space-y-5 justify-center items-center text-center w-full md:justify-start md:items-start md:text-left md:w-1/3">
                     <h2 className="text-[#ec4949]">INSURANCE</h2>
-                    <h3 className="font-bold text-3xl max-w-md md:text-4xl md:max-w-xl">Here are Our Insurance Partners</h3>
-                    <p className="text-lg">If you have any questions about testing, insurance coverage, duration of services.</p>
-                    <p className="text-lg">Please call us at <span className="text-[#ec4949]">+254798765432</span> and we’ll help you out.</p>
+                    <h3 className="font-bold font-poppins text-3xl max-w-md md:text-4xl md:max-w-xl">Here are Our Insurance Partners</h3>
+                    <p className="text-lg font-poppins">If you have any questions about testing, insurance coverage, duration of services.</p>
+                    <p className="text-lg font-poppins">Please call us at <span className="text-[#ec4949]">+254798765432</span> and we’ll help you out.</p>
                 </div>
 
                 <div className="grid grid-cols-2 gap-5 items-center sm:grid-cols-3 md:grid-cols-4 md:w-2/3">
