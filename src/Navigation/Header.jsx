@@ -21,7 +21,7 @@ const Header = () => {
                 <Link to="/">
                     <img src={logo} alt="Site Icon" className="w-[150px] xl:w-[200px]" />
                 </Link>
-                <div className="hidden md:flex space-x-6 font-bold">
+                <div className="hidden md:flex space-x-6 font-bold font-poppins">
                     <Link to="/" className="hover:text-[#ec4949]">Home</Link>
                     {/* <Link to="/departments" className="hover:text-[#ec4949]">Departments</Link> */}
                     <Link to="/services" className="hover:text-[#ec4949]">Services</Link>
@@ -47,7 +47,7 @@ const Header = () => {
             </div>
 
             <div className="md:hidden">
-                <div id="menu" className={`flex-col ${isHidden ? 'hidden' : 'flex'} items-center self-end py-8 mt-10 space-y-6 font-bold text-white rounded-lg bg-tertiary sm:w-auto sm:self-center left-6 right-6 drop-shadow-md`}>
+                <div id="menu" className={`flex-col ${isHidden ? 'hidden' : 'flex'} items-center self-end py-8 mt-10 space-y-6 font-bold font-poppins text-white rounded-lg bg-tertiary sm:w-auto sm:self-center left-6 right-6 drop-shadow-md`}>
                     <Link to="/">Home</Link>
                     {/* <Link to="/departments">Departments</Link> */}
                     <Link to="/services">Services</Link>
